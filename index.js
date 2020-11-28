@@ -72,7 +72,7 @@ function changePictureRight() {
     activeIndex += 1;
     lightboxImage.src = galleryItems[activeIndex].original;
     lightboxImage.alt = galleryItems[activeIndex].description;
-  } console.log(activeIndex);
+  };
 };
 
 // изменяет картинку влево
